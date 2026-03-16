@@ -3,12 +3,101 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ana Julia Afonso | Portfolio de projetos</title>
+<title>Ana Julia Afonso | Portfolio de Projetos</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
+  <div class="lang-switch">
+    <button onclick="setLang('en')">EN</button>
+    <button onclick="setLang('pt')">PT</button>
+  </div>
   <h1><span data-lang="en">Ana Julia Afonso</span><span data-lang="pt">Ana Julia Afonso</span></h1>
   <p>
-    <span data-lang="pt">GIS • Spatial Data • Mobilidade Urbana • Engenharia viária
+    <span data-lang="en">GIS • Spatial Data • Urban Infrastructure • Urban Mobility</span>
+    <span data-lang="pt">GIS • Dados Espaciais • Infraestrutura Urbana • Mobilidade Urbana</span>
+  </p>
+</header>
+
+<main>
+  <section id="skills">
+    <h2><span data-lang="en">Skills</span><span data-lang="pt">Habilidades</span></h2>
+    <div class="skill-columns">
+      <div>
+        <h3>GIS</h3>
+        <ul>
+          <li>QGIS</li>
+          <li>Spatial Analysis</li>
+          <li>Network Analysis</li>
+          <li>Cartographic Visualization</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Data & Development</h3>
+        <ul>
+          <li>Python / Pandas / GeoPandas</li>
+          <li>Automation Scripts</li>
+          <li>API Integration</li>
+          <li>Data Pipelines</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Web Mapping</h3>
+        <ul>
+          <li>JavaScript / Leaflet</li>
+          <li>OpenStreetMap Data</li>
+          <li>Interactive Maps</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2><span data-lang="en">Projects</span><span data-lang="pt">Projetos</span></h2>
+
+    <div class="project">
+      <h3><span data-lang="en">Traffic Accident Spatial Analysis</span><span data-lang="pt">Análise Espacial de Acidentes de Trânsito</span></h3>
+      <p>
+        <span data-lang="en">Geospatial analysis of accident records using spatial datasets and classification of accident types.</span>
+        <span data-lang="pt">Análise geográfica de registros de acidentes com classificação por tipo e distribuição espacial.</span>
+      </p>
+      <p><strong>Tools:</strong> QGIS, Python, GeoJSON</p>
+    </div>
+
+    <div class="project">
+      <h3><span data-lang="en">Urban Mobility CO₂ Emission Estimation</span><span data-lang="pt">Modelo de Emissões de CO₂ na Mobilidade Urbana</span></h3>
+      <p>
+        <span data-lang="en">Estimate transport emissions based on vehicle flow and emission factors.</span>
+        <span data-lang="pt">Estimativa de emissões veiculares baseada em fluxo de tráfego e fatores de emissão.</span>
+      </p>
+      <p><strong>Tools:</strong> Python, GIS, Spatial Datasets</p>
+    </div>
+
+    <div class="project">
+      <h3><span data-lang="en">OSM Infrastructure Extraction</span><span data-lang="pt">Extração de Infraestrutura do OpenStreetMap</span></h3>
+      <p>
+        <span data-lang="en">Extraction and processing of road infrastructure data using OpenStreetMap queries.</span>
+        <span data-lang="pt">Extração e tratamento de dados viários usando consultas ao OpenStreetMap.</span>
+      </p>
+      <p><strong>Tools:</strong> Overpass API, Python, QGIS</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2><span data-lang="en">Contact</span><span data-lang="pt">Contato</span></h2>
+    <ul>
+      <li><strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank">yourusername</a></li>
+      <li><strong>Email:</strong> your@email.com</li>
+      <li><strong>Location:</strong> Brazil</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 Ana Julia Afonso</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
