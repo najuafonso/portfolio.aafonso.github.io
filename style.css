@@ -80,3 +80,19 @@ footer {
   text-align: center;
   padding: 1rem 0;
 }
+.academic-item {
+  background: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.academic-item h3 {
+  margin-top: 0;
+}
+
+.academic-item ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
